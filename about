@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="About — Brand clarity and storytelling for retreat centres and wilderness hotels." />
+  <title>About | Your Brand Name</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">
+            <strong>Your Brand Name</strong>
+            <span>Brand clarity & storytelling</span>
+          </span>
+        </a>
+
+        <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+        <div id="nav-links" class="nav-links" data-nav-links>
+          <a href="index.html">Home</a>
+          <a href="about.html" aria-current="page">About</a>
+          <a href="process.html">Process</a>
+          <a href="case-study.html">Case Study</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="nav-cta">
+          <a class="btn" href="case-study.html">See results</a>
+          <a class="btn btn-primary" href="contact.html">Book a clarity call</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <span class="kicker">About</span>
+        <h1 class="mt14">Strategy-first storytelling for places that are truly felt.</h1>
+        <p class="lead mt14">
+          Retreat centres and wilderness hotels often have something rare: an experience that changes people.
+          But online, it can all sound the same — and that gap creates confusion, misalignment, and reliance on OTAs.
+        </p>
+
+        <div class="card mt24">
+          <h2>What I do (the simple version)</h2>
+          <p class="lead">
+            Helping retreat centres and wilderness hotels turn clarity into trust — and trust into aligned bookings.
+          </p>
+          <hr class="hr" />
+          <h3>Primary statement</h3>
+          <p class="m0">
+            <strong>
+              I help retreat centres and wilderness hotels clarify their true voice and translate it into heartfelt content that builds trust,
+              attracts aligned guests, and increases direct bookings —
+            </strong>
+            unlike traditional video production houses that focus on surface-level visuals,
+            because we work at the root of your brand — aligning strategy, voice, and storytelling before a single frame is filmed.
+          </p>
+        </div>
+
+        <div class="grid-2 mt24">
+          <div class="card soft">
+            <h3>Not a “nicer marketing agency”</h3>
+            <p class="small m0">
+              This work begins with diagnosis. We look for the root cause: where clarity is missing, what’s blocking trust, and why content isn’t converting.
+            </p>
+          </div>
+          <div class="card soft">
+            <h3>Built for aligned guests</h3>
+            <p class="small m0">
+              The goal isn’t louder content — it’s content that sounds like you, so the right guests feel it and choose you directly.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mt24">
+          <h2>How to work together</h2>
+          <p class="lead">
+            We move through a clear sequence: Diagnose → Align → Express (with an optional Sustain partnership).
+          </p>
+          <div class="row mt18">
+            <a class="btn btn-primary" href="process.html">See the process</a>
+            <a class="btn" href="contact.html">Talk about your place</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="card soft">
+          <h3 class="m0">Your Brand Name</h3>
+          <p class="m0 mt8 small">Brand clarity & storytelling for retreat centres and wilderness hotels.</p>
+          <p class="small mt14">© <span data-year></span> Your Brand Name</p>
+        </div>
+        <div class="card soft">
+          <h3 class="m0">Navigate</h3>
+          <p class="m0 mt8 small">
+            <a href="index.html">Home</a> ·
+            <a href="process.html">Process</a> ·
+            <a href="case-study.html">Case Study</a> ·
+            <a href="contact.html">Contact</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
