@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Process — Diagnose, Align, Express, Sustain." />
+  <title>Process | Your Brand Name</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">
+            <strong>Your Brand Name</strong>
+            <span>Brand clarity & storytelling</span>
+          </span>
+        </a>
+
+        <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+        <div id="nav-links" class="nav-links" data-nav-links>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="process.html" aria-current="page">Process</a>
+          <a href="case-study.html">Case Study</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="nav-cta">
+          <a class="btn" href="case-study.html">See results</a>
+          <a class="btn btn-primary" href="contact.html">Book a clarity call</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <span class="kicker">The process</span>
+        <h1 class="mt14">Diagnosis → alignment → expression (and sustainable growth).</h1>
+        <p class="lead mt14">
+          This isn’t a content audit. It’s a clarity diagnosis — then a brand voice alignment — then content created through a coherent lens.
+        </p>
+
+        <div class="grid-2 mt24">
+          <div class="card">
+            <h2>1. Diagnose — Brand & business analysis</h2>
+            <p class="small">
+              We begin with a deep analysis of your business to uncover where clarity is missing, what’s blocking trust, and why current content isn’t converting.
+              Think symptoms → root cause.
+            </p>
+            <ul class="list">
+              <li>Messaging & positioning diagnosis</li>
+              <li>Guest journey + booking friction</li>
+              <li>What your content says vs what you really offer</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h2>2. Align — Brand voice & DNA</h2>
+            <p class="small">
+              Together, we define your brand DNA: how it sounds, how it feels, what it stands for, and who it’s truly for.
+              This becomes the foundation for everything you communicate.
+            </p>
+            <ul class="list">
+              <li>Voice pillars (tone, rhythm, language)</li>
+              <li>Values and boundaries (what you’re not)</li>
+              <li>A clear “who it’s for” filter</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid-2 mt14">
+          <div class="card">
+            <h2>3. Express — Content & storytelling</h2>
+            <p class="small">
+              Only once clarity is established do we create. Every asset is expressed through your clarified voice so it feels coherent and human.
+            </p>
+            <ul class="list">
+              <li>Retreat films and brand stories</li>
+              <li>Website visuals and messaging</li>
+              <li>Social content that doesn’t feel forced</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h2>4. Sustain — Ongoing partnership (optional)</h2>
+            <p class="small">
+              For brands ready to grow consciously: long-term support as your story evolves. This turns short-term content into long-term growth.
+            </p>
+            <ul class="list">
+              <li>Strategic guidance & planning</li>
+              <li>Messaging refinement over time</li>
+              <li>Support as your offerings evolve</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mt24">
+          <h2>What you’ll walk away with</h2>
+          <div class="grid-3 mt14">
+            <div class="card soft">
+              <h3>Clarity</h3>
+              <p class="small m0">A brand voice you can actually use (and repeat) across your team.</p>
+            </div>
+            <div class="card soft">
+              <h3>Confidence</h3>
+              <p class="small m0">Messaging that matches the experience — so the right guests self-select.</p>
+            </div>
+            <div class="card soft">
+              <h3>Conversion</h3>
+              <p class="small m0">More direct inquiries and bookings because trust is built before arrival.</p>
+            </div>
+          </div>
+
+          <div class="row mt18">
+            <a class="btn" href="case-study.html">See a real example</a>
+            <a class="btn btn-primary" href="contact.html">Book a clarity call</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="card soft">
+          <h3 class="m0">Your Brand Name</h3>
+          <p class="m0 mt8 small">Brand clarity & storytelling for retreat centres and wilderness hotels.</p>
+          <p class="small mt14">© <span data-year></span> Your Brand Name</p>
+        </div>
+        <div class="card soft">
+          <h3 class="m0">Navigate</h3>
+          <p class="m0 mt8 small">
+            <a href="index.html">Home</a> ·
+            <a href="about.html">About</a> ·
+            <a href="case-study.html">Case Study</a> ·
+            <a href="contact.html">Contact</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
