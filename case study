@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Case study — Tuscany villa transformation through brand clarity and storytelling." />
+  <title>Case Study | Your Brand Name</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">
+            <strong>Your Brand Name</strong>
+            <span>Brand clarity & storytelling</span>
+          </span>
+        </a>
+
+        <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+        <div id="nav-links" class="nav-links" data-nav-links>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="process.html">Process</a>
+          <a href="case-study.html" aria-current="page">Case Study</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="nav-cta">
+          <a class="btn" href="process.html">Process</a>
+          <a class="btn btn-primary" href="contact.html">Book a clarity call</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <span class="kicker">Case study</span>
+        <h1 class="mt14">From “looks good” to “feels true” — Tuscany villa transformation.</h1>
+        <p class="lead mt14">
+          A strong example of what happens when brand clarity becomes the lens for everything you create.
+        </p>
+
+        <div class="grid-2 mt24">
+          <div class="card">
+            <h2>Before</h2>
+            <ul class="list">
+              <li>Renting seasonally through Booking.com</li>
+              <li>~12k followers</li>
+              <li>Minimal direct leads</li>
+              <li>No retreat strategy</li>
+              <li>Content looked good — but didn’t reflect who they truly were</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>After</h2>
+            <ul class="list">
+              <li>50k engaged followers</li>
+              <li>4 retreats per year</li>
+              <li>A clear lead generation system</li>
+              <li>100 hot leads</li>
+              <li>20% increase in OTA performance — with less dependency on them</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mt24">
+          <h2>The most important outcome</h2>
+          <blockquote class="quote mt14">
+            <p>Guests arrived already aligned with the experience.</p>
+            <small>That’s what clarity does: it builds trust before the first message, before the first booking, before arrival.</small>
+          </blockquote>
+        </div>
+
+        <div class="card mt24">
+          <h2>What made the difference</h2>
+          <p class="lead">
+            We didn’t chase trends. We clarified identity first — then translated it into storytelling. That’s why it converted.
+          </p>
+          <div class="grid-3 mt14">
+            <div class="card soft">
+              <h3>Diagnosis</h3>
+              <p class="small m0">Where trust broke down and where messaging was generic.</p>
+            </div>
+            <div class="card soft">
+              <h3>Alignment</h3>
+              <p class="small m0">A coherent voice that matched the real experience.</p>
+            </div>
+            <div class="card soft">
+              <h3>Expression</h3>
+              <p class="small m0">Content that sounded like them — so the right guests self-selected.</p>
+            </div>
+          </div>
+
+          <div class="row mt18">
+            <a class="btn btn-primary" href="contact.html">Book a clarity call</a>
+            <a class="btn" href="process.html">See the full process</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="card soft">
+          <h3 class="m0">Your Brand Name</h3>
+          <p class="m0 mt8 small">Brand clarity & storytelling for retreat centres and wilderness hotels.</p>
+          <p class="small mt14">© <span data-year></span> Your Brand Name</p>
+        </div>
+        <div class="card soft">
+          <h3 class="m0">Navigate</h3>
+          <p class="m0 mt8 small">
+            <a href="index.html">Home</a> ·
+            <a href="about.html">About</a> ·
+            <a href="process.html">Process</a> ·
+            <a href="contact.html">Contact</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
