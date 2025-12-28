@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Contact — book a clarity call." />
+  <title>Contact | Your Brand Name</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">
+            <strong>Your Brand Name</strong>
+            <span>Brand clarity & storytelling</span>
+          </span>
+        </a>
+
+        <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+        <div id="nav-links" class="nav-links" data-nav-links>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="process.html">Process</a>
+          <a href="case-study.html">Case Study</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </div>
+
+        <div class="nav-cta">
+          <a class="btn" href="case-study.html">See results</a>
+          <a class="btn btn-primary" href="contact.html">Book a clarity call</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <span class="kicker">Contact</span>
+        <h1 class="mt14">Book a clarity call</h1>
+        <p class="lead mt14">
+          Tell me where your messaging feels unclear, what you offer, and what kind of guests you want to attract.
+          We’ll start at the root and see what’s actually going on.
+        </p>
+
+        <div class="grid-2 mt24">
+          <div class="card">
+            <h2>Send a message</h2>
+            <p class="small">
+              This form uses <code>mailto:</code> to keep things simple on a static site.
+              If you want a real form (Formspree, Netlify Forms, etc.), tell me and I’ll swap it in.
+            </p>
+
+            <!-- Replace YOUR_EMAIL@example.com -->
+            <form action="mailto:YOUR_EMAIL@example.com" method="post" enctype="text/plain">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="Name" autocomplete="name" required />
+              </div>
+
+              <div>
+                <label for="business">Retreat centre / hotel name</label>
+                <input id="business" name="Business" autocomplete="organization" />
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="Email" type="email" autocomplete="email" required />
+              </div>
+
+              <div>
+                <label for="message">What feels unclear right now?</label>
+                <textarea id="message" name="Message" required></textarea>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Send</button>
+              <p class="small mt8">If your email app doesn’t open, email me directly at: <strong>YOUR_EMAIL@example.com</strong></p>
+            </form>
+          </div>
+
+          <aside class="card">
+            <h2>What we’ll focus on</h2>
+            <ul class="list">
+              <li>Where clarity is missing</li>
+              <li>What’s blocking trust</li>
+              <li>Why content isn’t converting</li>
+              <li>How to align voice and storytelling</li>
+            </ul>
+
+            <hr class="hr" />
+
+            <blockquote class="quote">
+              <p>“We know what we offer is special — but we can’t seem to communicate it.”</p>
+              <small>If that’s you, you’re in the right place.</small>
+            </blockquote>
+
+            <div class="row mt18">
+              <a class="btn" href="process.html">See the process</a>
+              <a class="btn" href="case-study.html">See results</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="card soft">
+          <h3 class="m0">Your Brand Name</h3>
+          <p class="m0 mt8 small">Brand clarity & storytelling for retreat centres and wilderness hotels.</p>
+          <p class="small mt14">© <span data-year></span> Your Brand Name</p>
+        </div>
+        <div class="card soft">
+          <h3 class="m0">Navigate</h3>
+          <p class="m0 mt8 small">
+            <a href="index.html">Home</a> ·
+            <a href="about.html">About</a> ·
+            <a href="process.html">Process</a> ·
+            <a href="case-study.html">Case Study</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
