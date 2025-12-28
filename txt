@@ -1,0 +1,14 @@
+brand-clarity-site/
+  index.html
+  about.html
+  process.html
+  case-study.html
+  contact.html
+  assets/
+    css/
+      styles.css
+    js/
+      main.js
+    img/
+      (optional images)
+  README.md
