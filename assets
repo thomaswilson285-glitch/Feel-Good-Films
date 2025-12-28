@@ -1,0 +1,26 @@
+// Mobile menu toggle + small UX helpers
+
+(function () {
+  const menuBtn = document.querySelector('[data-menu-btn]');
+  const navLinks = document.querySelector('[data-nav-links]');
+
+  if (menuBtn && navLinks) {
+    menuBtn.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    // Close menu when clicking a link (mobile)
+    navLinks.addEventListener('click', (e) => {
+      const target = e.target;
+      if (target && target.tagName === 'A') {
+        navLinks.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  // Update footer year
+  const yearEl = document.querySelector('[data-year]');
+  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+})();
